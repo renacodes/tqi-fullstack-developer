@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Source+Sans+Pro&display=swap');
+
+body {
+  font-family: "Source Sans Pro", "Merriweather", serif, sans-serif;
+  font-size: 1.4rem;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(45deg, #ffebb6, #d9c79b);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Merriweather";
+  color: #1F1200;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  background-image: linear-gradient(to bottom, #c39738, #deb761, #c39738);
+  font-size: 2rem;
+  border-style: none;
+}
+
+#counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #c39738, #deb761, #c39738);
+  border-radius: 20%;
+}
+
+#currentNumber {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-family: 'Merriweather';
+  color: #1F1200;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 100px;
+}
+#subtrair {
+  border-radius: 20% 0 0 20%;
+}
+
+#adicionar {
+  border-radius: 0 20% 20% 0;
+}
